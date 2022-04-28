@@ -29,9 +29,10 @@
 			break;
 
 			case 4:
-					if((int)argp->b==0){
+					if((int)argp->b==0 || (int)argp->a==0){
 						printf("No se puede divir entre 0");
-						exit -1;
+						result=-1;
+						return &result;
 					}
 					result=(float)argp->a/(float)argp->b;
 
