@@ -35,7 +35,7 @@ void calc_1(char *host, int x, int y, int z)
 	}
 	else
 	{
-		printf("EL resultado es %f\n", *result_1);
+		printf("EL resultado es  %f\n", *result_1);
 	}
 
 #ifndef DEBUG
